@@ -1,0 +1,1678 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2aaf8ca3-bd8d-4827-9196-7942d6696033")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Relay_SolidState:MOC3063M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MOC3063M"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Opto-Triac Opto Triac Zero Cross"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SMDIP*W9.53mm* DIP*W10.16mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MOC3063M_0_0"
+				(rectangle
+					(start -0.381 -2.032)
+					(end 1.397 -3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.635) (xy 1.016 -1.016) (xy 1.016 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ZCD"
+					(at 0.508 -2.54 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "MOC3063M_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 0.508) (xy 0.127 0.508) (xy -0.254 0.381) (xy -0.254 0.635) (xy 0.127 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -0.508) (xy 0.127 -0.508) (xy -0.254 -0.635) (xy -0.254 -0.381) (xy 0.127 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -0.635) (xy 3.683 -0.635) (xy 3.048 0.635) (xy 2.413 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.635) (xy 1.524 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 2.54) (xy 0.508 2.54) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.635) (xy 2.286 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.635) (xy 2.286 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0.635) (xy 3.048 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 0.635) (xy 0.889 0.635) (xy 1.524 -0.635) (xy 2.159 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MOC3063M_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Triac_Thyristor:BT138-800"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BT138-800"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BT138_SER_D_E.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "12A RMS, 800V Off-State Voltage, Triac, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Triac"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BT138-800_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.27 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BT138-800_1_1"
+				(pin input line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 189.23 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96bc8724-1b1f-457c-84b8-57a4d474be9c")
+	)
+	(junction
+		(at 189.23 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d614c8a1-5654-42a5-b507-4258fae35220")
+	)
+	(junction
+		(at 165.1 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ba3962-d0d2-48e7-b57e-9a290916544b")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0524f93d-c9a6-4888-8d45-73bd808f30d9")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1cc881-0bed-4806-af81-b5be05f31dc8")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc0ef50-9209-42ba-afbf-499ac11efda0")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ae224b-7709-443d-adaf-5356edd6e480")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d51dab-4264-49dd-9746-e8c60d2133fc")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 189.23 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6919298d-a270-4abb-8e97-aa2b423fee8f")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ff8fd8-2c4a-459d-ab07-df45e281f8ca")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837f1a74-36a0-4c72-be28-b4fbc0366600")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc2216d-abe5-4817-9f7d-b13748d97037")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab45f116-6a6b-4c99-b4e0-9286da02ca6d")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4061bfb-f704-4d67-8362-0fed009575d4")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 165.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f15949-5730-4eaf-84f7-2ba3ef98f98b")
+	)
+	(wire
+		(pts
+			(xy 189.23 71.12) (xy 203.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9ef921-3cef-4b27-9d2d-e838ab24404f")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 189.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76c0646-2627-4d77-b7fa-45e0caa28127")
+	)
+	(wire
+		(pts
+			(xy 107.95 80.01) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac87ad0-c9e3-4d0e-922b-53d7c6088082")
+	)
+	(wire
+		(pts
+			(xy 189.23 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec15e12b-241e-4de9-b766-a032d75d21e0")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f256d67a-ad9d-4a4e-a207-a477cddb659d")
+	)
+	(hierarchical_label "out"
+		(shape output)
+		(at 107.95 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d220c40-f845-4857-b988-0c8f20be69ca")
+	)
+	(hierarchical_label "E_Meter"
+		(shape input)
+		(at 203.2 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e132d4d-a3dd-4ed9-85fe-77e2027e2712")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 107.95 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95d73a69-ad45-4b71-a019-5b08609e9ef1")
+	)
+	(hierarchical_label "Load"
+		(shape input)
+		(at 203.2 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f77f75a7-5d2c-4565-86d6-fd77604a7e89")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "185232e2-a899-4556-8470-28e6afc8d1ea")
+		(property "Reference" "R1"
+			(at 116.84 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 116.84 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 116.84 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c790a6a-91ff-49fd-a4e7-d35e991ba868")
+		)
+		(pin "2"
+			(uuid "9d628ebd-e7ac-47e8-8f1c-036835e85845")
+		)
+		(instances
+			(project "smart meter"
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/0402d54a-bf9b-4813-b333-e938e9493290"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/333bd0c8-1ca4-4463-b56d-89dc4191ebd1"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/4e681491-6211-4a6a-9db3-1e895fa13e6d"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/53fc4f0c-a054-45da-bc5c-4a68fc337584"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/5b77abc3-daeb-437e-a1ac-3902cc30e03e"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/cabd0721-d4ac-4cd5-b60b-2edcc843df01"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/d9dab690-8a19-46a7-80ef-f42c16fa0d04"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ecae1e1-3a20-4f3d-8c86-a7bd1cf05bd6")
+		(property "Reference" "R2"
+			(at 148.59 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 148.59 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 148.59 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8ceda75-5d5b-4d50-877b-4267cf6828a4")
+		)
+		(pin "2"
+			(uuid "8b537eda-d718-4bbb-8412-aefbbc03c8a0")
+		)
+		(instances
+			(project "smart meter"
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/0402d54a-bf9b-4813-b333-e938e9493290"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/333bd0c8-1ca4-4463-b56d-89dc4191ebd1"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/4e681491-6211-4a6a-9db3-1e895fa13e6d"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/53fc4f0c-a054-45da-bc5c-4a68fc337584"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/5b77abc3-daeb-437e-a1ac-3902cc30e03e"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/cabd0721-d4ac-4cd5-b60b-2edcc843df01"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/d9dab690-8a19-46a7-80ef-f42c16fa0d04"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67eaef69-7409-4342-8642-42edb407a259")
+		(property "Reference" "C3"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01µF"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
+			(at 190.1952 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.708 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "092d57f2-00a9-4061-9cfb-b68e737a9dcf")
+		)
+		(pin "2"
+			(uuid "2aa6ffe8-43ae-4ed8-b5de-a47bc4f0bde7")
+		)
+		(instances
+			(project "smart meter"
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/0402d54a-bf9b-4813-b333-e938e9493290"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/333bd0c8-1ca4-4463-b56d-89dc4191ebd1"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/4e681491-6211-4a6a-9db3-1e895fa13e6d"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/53fc4f0c-a054-45da-bc5c-4a68fc337584"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/5b77abc3-daeb-437e-a1ac-3902cc30e03e"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/cabd0721-d4ac-4cd5-b60b-2edcc843df01"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/d9dab690-8a19-46a7-80ef-f42c16fa0d04"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Triac_Thyristor:BT138-800")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d6d98e0-bcd1-4c86-b858-c8f34df18366")
+		(property "Reference" "Q1"
+			(at 169.545 80.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTA41-600"
+			(at 169.545 83.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 170.18 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BT138_SER_D_E.pdf"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "12A RMS, 800V Off-State Voltage, Triac, TO-220"
+			(at 166.878 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9e9887f-46af-402c-a34b-5c979f39f890")
+		)
+		(pin "3"
+			(uuid "504caac8-79ce-4cd1-81c8-6cf4dba52d52")
+		)
+		(pin "2"
+			(uuid "10b1c59d-1791-4073-a4fd-504e3f344304")
+		)
+		(instances
+			(project "smart meter"
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/0402d54a-bf9b-4813-b333-e938e9493290"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/333bd0c8-1ca4-4463-b56d-89dc4191ebd1"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/4e681491-6211-4a6a-9db3-1e895fa13e6d"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/53fc4f0c-a054-45da-bc5c-4a68fc337584"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/5b77abc3-daeb-437e-a1ac-3902cc30e03e"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/cabd0721-d4ac-4cd5-b60b-2edcc843df01"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/d9dab690-8a19-46a7-80ef-f42c16fa0d04"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7e59252-818a-4399-ad8e-4a1db57fdb5f")
+		(property "Reference" "R3"
+			(at 191.77 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 191.77 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 187.452 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c11b347-d2bd-4e96-a0f1-bc6e59dc957f")
+		)
+		(pin "2"
+			(uuid "17c64b03-e3bc-4a51-b240-2581d17c94ae")
+		)
+		(instances
+			(project "smart meter"
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/0402d54a-bf9b-4813-b333-e938e9493290"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/333bd0c8-1ca4-4463-b56d-89dc4191ebd1"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/4e681491-6211-4a6a-9db3-1e895fa13e6d"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/53fc4f0c-a054-45da-bc5c-4a68fc337584"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/5b77abc3-daeb-437e-a1ac-3902cc30e03e"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/cabd0721-d4ac-4cd5-b60b-2edcc843df01"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/d9dab690-8a19-46a7-80ef-f42c16fa0d04"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay_SolidState:MOC3063M")
+		(at 133.35 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e27cd0a9-541f-4eba-8a70-768678f1f466")
+		(property "Reference" "U2"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MOC3063M"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
+			(at 129.032 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "699b7876-4e07-41ed-8302-4f34f8f04031")
+		)
+		(pin "6"
+			(uuid "22e10404-2512-447a-8ac2-06d04b0c7f18")
+		)
+		(pin "1"
+			(uuid "e6113486-9478-4138-ae4e-71a336a73d68")
+		)
+		(pin "2"
+			(uuid "7d6f24ba-f39e-4630-b208-dda79b3b09ee")
+		)
+		(pin "3"
+			(uuid "c01ee9be-741f-4e10-b413-bc6b3263e844")
+		)
+		(pin "5"
+			(uuid "fab412fa-08c5-4440-996c-a9c9819cf396")
+		)
+		(instances
+			(project "smart meter"
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/0402d54a-bf9b-4813-b333-e938e9493290"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/333bd0c8-1ca4-4463-b56d-89dc4191ebd1"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/4e681491-6211-4a6a-9db3-1e895fa13e6d"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/53fc4f0c-a054-45da-bc5c-4a68fc337584"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/5b77abc3-daeb-437e-a1ac-3902cc30e03e"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/cabd0721-d4ac-4cd5-b60b-2edcc843df01"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/9bc02070-72c2-423e-add5-b4dc6e93a3d6/d9dab690-8a19-46a7-80ef-f42c16fa0d04"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

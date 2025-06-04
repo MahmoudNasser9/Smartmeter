@@ -449,8 +449,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "smart_meter"
+    ],
+    "pinned_symbol_libs": [
+      "smart_meter"
+    ]
   },
   "meta": {
     "filename": "Control_board.kicad_pro",

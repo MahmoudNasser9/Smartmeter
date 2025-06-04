@@ -3022,6 +3022,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode_Bridge:DF02S"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DF02S"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Diode_Bridge_OnSemi_SDIP-4L"
+				(at 3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/df10s-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bridge Rectifier, 140V Vrms, 1.5A If, SMDIP-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rectifier acdc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Diode*Bridge*OnSemi*SDIP*4L*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DF02S_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DF02S_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_UART:SP3485EN"
 			(pin_names
 				(offset 1.016)
@@ -7463,6 +7720,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 132.715) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04829619-c3c9-4aa3-8d22-579d8609bdd0")
+	)
+	(wire
+		(pts
 			(xy 205.105 29.21) (xy 205.105 34.29)
 		)
 		(stroke
@@ -7863,16 +8130,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 135.255) (xy 240.03 135.255)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b58f71-5c78-49a3-80c6-12e07ce9d9a6")
-	)
-	(wire
-		(pts
 			(xy 68.58 36.83) (xy 71.755 36.83)
 		)
 		(stroke
@@ -7900,6 +8157,16 @@
 			(type default)
 		)
 		(uuid "26828106-4992-4eb8-aeda-2e3d168e666f")
+	)
+	(wire
+		(pts
+			(xy 212.09 125.73) (xy 212.09 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2843bf4b-5930-4bb5-8a0b-f872d78c43d9")
 	)
 	(wire
 		(pts
@@ -8320,6 +8587,16 @@
 			(type default)
 		)
 		(uuid "534c7940-3239-4d80-81cf-4175f51cd370")
+	)
+	(wire
+		(pts
+			(xy 226.06 135.255) (xy 226.06 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53df1290-d867-4894-89bb-04c5df9b4a81")
 	)
 	(wire
 		(pts
@@ -8783,6 +9060,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 136.525) (xy 221.615 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e8b36a-979c-458d-89d5-a4948e5a202e")
+	)
+	(wire
+		(pts
 			(xy 55.88 44.45) (xy 55.88 41.91)
 		)
 		(stroke
@@ -8860,16 +9147,6 @@
 			(type default)
 		)
 		(uuid "7f102f18-8f79-45d4-ac5b-ebafc787d4a2")
-	)
-	(wire
-		(pts
-			(xy 235.585 132.715) (xy 240.03 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa21125-28b4-4cd2-90cd-000cc21d581b")
 	)
 	(wire
 		(pts
@@ -9050,6 +9327,16 @@
 			(type default)
 		)
 		(uuid "8e2a3079-d349-4af9-a1ae-0424077f5b4f")
+	)
+	(wire
+		(pts
+			(xy 226.06 144.145) (xy 212.09 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e89f07f-c91b-4a27-ab83-9cd865bcab8f")
 	)
 	(wire
 		(pts
@@ -9250,6 +9537,16 @@
 			(type default)
 		)
 		(uuid "a1b51a35-aefd-4cf6-9b33-bc2d084a6446")
+	)
+	(wire
+		(pts
+			(xy 226.06 135.255) (xy 240.03 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a5035f-8bc5-486f-95f1-c901f929c842")
 	)
 	(wire
 		(pts
@@ -9713,6 +10010,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 132.715) (xy 240.03 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdce3bb0-7a4c-4397-a379-49f542b399ac")
+	)
+	(wire
+		(pts
 			(xy 167.64 35.56) (xy 163.83 35.56)
 		)
 		(stroke
@@ -9840,6 +10147,16 @@
 			(type default)
 		)
 		(uuid "daf3885d-7f76-4f06-9026-71bb2016d39a")
+	)
+	(wire
+		(pts
+			(xy 201.93 136.525) (xy 204.47 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaf29a7-dd90-4798-8a20-31b72fd83d59")
 	)
 	(wire
 		(pts
@@ -9990,6 +10307,16 @@
 			(type default)
 		)
 		(uuid "e77249b4-c86b-4575-a80e-e1ce40008e39")
+	)
+	(wire
+		(pts
+			(xy 226.06 125.73) (xy 212.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86af21e-eea2-4fc9-a550-baeccccd8061")
 	)
 	(wire
 		(pts
@@ -10552,7 +10879,7 @@
 		(uuid "43069ffe-c890-4aeb-9a52-ee95f3ed8740")
 	)
 	(label "GND"
-		(at 234.95 135.255 0)
+		(at 201.93 136.525 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10662,7 +10989,7 @@
 		(uuid "5b573776-b4e1-4527-be3c-dde4317c9373")
 	)
 	(label "12V"
-		(at 235.585 132.715 0)
+		(at 221.615 136.525 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11603,6 +11930,81 @@
 			(project "Control_board"
 				(path "/6b6e7f04-e4bf-4c77-9852-1b9053859fbf"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Bridge:DF02S")
+		(at 212.09 136.525 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f9cd79d-a24a-4aed-b414-bd9a28fede66")
+		(property "Reference" "D7"
+			(at 220.98 130.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DF02S"
+			(at 220.98 132.6448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Diode_Bridge_OnSemi_SDIP-4L"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/df10s-d.pdf"
+			(at 212.09 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bridge Rectifier, 140V Vrms, 1.5A If, SMDIP-4"
+			(at 212.09 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a1fa7cc-4cf9-4af3-9242-d0a11290bb29")
+		)
+		(pin "3"
+			(uuid "97fe7e1d-e03d-4956-87aa-a16670acb1ab")
+		)
+		(pin "2"
+			(uuid "1f3674f3-ab1b-4533-9f64-248d792534f4")
+		)
+		(pin "4"
+			(uuid "97dfc6cc-d7bb-45b6-91d9-7f7c0aacab14")
+		)
+		(instances
+			(project ""
+				(path "/6b6e7f04-e4bf-4c77-9852-1b9053859fbf"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14405,7 +14807,7 @@
 				)
 			)
 		)
-		(property "Value" "Thermistor_PTC"
+		(property "Value" "250-120U"
 			(at 85.09 135.255 90)
 			(effects
 				(font
@@ -14744,7 +15146,7 @@
 				)
 			)
 		)
-		(property "Value" "Thermistor_PTC"
+		(property "Value" "250-120U"
 			(at 86.36 144.78 90)
 			(effects
 				(font

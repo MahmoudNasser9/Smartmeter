@@ -1,4 +1,95 @@
-25242184457024650
+25261390305911077
+ACC_Library
+DIP762W50P254L1018H450Q8
+<b>Dual In Line Package</b>
+
+0
+8
+8
+ACC_Library
+Logo_silkscreen
+
+
+0
+0
+0
+ACC_Library
+POGO
+
+
+0
+4
+4
+ACC_Library
+RC2
+
+
+0
+2
+2
+ACC_Library
+RC5
+
+
+0
+5
+5
+ACC_Library
+RC6
+
+
+0
+6
+6
+ACC_Library
+RC8
+
+
+0
+8
+8
+ACC_Library
+RC10
+
+
+0
+10
+10
+ACC_Library
+SO16
+<b>Small Outline package</b> 150 mil
+
+0
+16
+16
+ACC_Library
+SOIC127P600X175-8N
+
+
+0
+8
+8
+ACC_Library
+SOIC127P1032X265-16N
+
+
+0
+16
+16
+ACC_Library
+SW_TS-1088-AR02016
+
+
+0
+2
+2
+ACC_Library
+TerminalBlock_RC3_3Pin_P5.08mm_fixed
+3-pin pluggable terminal block, 5.08mm pitch, vertical, RC3 compatible
+terminal block pluggable 5.08mm
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94471,6 +94562,13 @@ Logo WEEE
 0
 0
 0
+TLP521-2
+DIP762W50P254L1018H450Q8
+<b>Dual In Line Package</b>
+
+0
+8
+8
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -101276,13 +101374,6 @@ Varistor VF
 2
 2
 smart_meter
-21-0042B_20_MXM
-
-DS3232SN-T&R 
-0
-20
-20
-smart_meter
 AC_filter
 
 
@@ -101353,13 +101444,6 @@ RPC2
 2
 2
 smart_meter
-RPC5
-
-
-0
-5
-5
-smart_meter
 RPC10
 
 
@@ -101374,13 +101458,6 @@ DS3232SN-T&R
 20
 20
 smart_meter
-SOIC127P798X216-8N
-
-
-0
-8
-8
-smart_meter
 Screw Terminal 2pin
 
 
@@ -101394,13 +101471,6 @@ Triac
 0
 3
 3
-smart_meter
-Untitled_1
-
-
-0
-0
-0
 smart_meter
 wifi
 

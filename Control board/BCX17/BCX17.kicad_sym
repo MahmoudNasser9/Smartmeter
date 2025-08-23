@@ -1,0 +1,97 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BCX17" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "T" (id 0) (at -10.1737 7.63027 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BCX17" (id 1) (at -10.1718 5.08591 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BCX17:SOT23" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DigiKey_Part_Number" "2156-BCX17-ND" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/BCX17/Fairchild+Imaging/view-part/?ref=snap" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Bipolar (BJT) Transistor PNP 45 V 500 mA 300 mW Surface Mount SOT-23-3\n                        \n" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Fairchild Semiconductor" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/BCX17/Fairchild+Imaging/view-part/?ref=eda" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "BCX17" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BCX17_0_0"
+      (polyline
+        (pts (xy 2.0861 1.6779) (xy 1.5781 2.5941)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.5781 2.5941) (xy 0.5159 1.478)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.5159 1.478) (xy 2.0861 1.6779)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 1.808 2.1239)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 0.508 -1.524)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 1.778) (xy 1.524 2.413)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.524 2.413) (xy 0.762 1.651)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.762 1.651) (xy 1.778 1.778)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 1.778) (xy 1.524 2.159)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.524 2.159) (xy 1.143 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.143 1.905) (xy 1.524 1.905)) (stroke (width 0.254))
+      )
+      (rectangle (start -0.254037 -2.54037) (end 0.508 2.54)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (pin passive line (at -2.54 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 2.54 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 2.54 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

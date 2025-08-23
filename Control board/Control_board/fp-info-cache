@@ -1,4 +1,4 @@
-25268428192668565
+25275454238050020
 ACC_Library
 DIP762W50P254L1018H450Q8
 <b>Dual In Line Package</b>
@@ -101395,6 +101395,13 @@ AC_filter
 6
 6
 smart_meter
+BCX17
+<li><b>SOT23</b><hr> <ul><li>Plastic surface-mounted package; 3 leads<li><u>JEDEC</u>: TO-236AB <li><u>IEC</u>: -- <li><u>JEITA</u>: --</ul>
+
+0
+3
+3
+smart_meter
 Energy_meter
 
 
@@ -101402,7 +101409,35 @@ Energy_meter
 11
 11
 smart_meter
+LM3.3V
+
+
+0
+4
+4
+smart_meter
+LM1117_3.3V
+
+
+0
+16
+16
+smart_meter
 LoRa
+
+
+0
+16
+16
+smart_meter
+MDB
+
+
+0
+6
+6
+smart_meter
+PCA955
 
 
 0
@@ -101478,13 +101513,6 @@ DS3232SN-T&R
 0
 20
 20
-smart_meter
-SOIC127P1032X265-16N
-
-
-0
-16
-16
 smart_meter
 Screw Terminal 2pin
 

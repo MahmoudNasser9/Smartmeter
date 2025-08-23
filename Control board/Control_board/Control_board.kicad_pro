@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -125,7 +131,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -182,7 +188,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -209,8 +217,13 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -464,20 +477,20 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.0762,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.254,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.3048,
+        "via_diameter": 0.762,
+        "via_drill": 0.381,
         "wire_width": 6
       }
     ],
@@ -493,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GarberControl/",
       "pos_files": "",
       "specctra_dsn": "Control_board.dsn",
       "step": "",
@@ -619,6 +632,10 @@
     [
       "6b6e7f04-e4bf-4c77-9852-1b9053859fbf",
       "Root"
+    ],
+    [
+      "882811d5-e371-43e1-8e2a-26e1321f7ab0",
+      "MDB_uart"
     ]
   ],
   "text_variables": {}

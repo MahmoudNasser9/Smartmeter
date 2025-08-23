@@ -1,0 +1,89 @@
+
+(rules PCB Control_board.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+  )
+  (rule
+    (width 304.8)
+    (clearance 152.4)
+    (clearance 152.4 (type smd_to_turn_gap))
+    (clearance 38.2 (type smd))
+    (clearance 152.4 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_762:381_um"
+    (shape
+      (circle F.Cu 762.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 762.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_762:381_um" "Via[0-1]_762:381_um" default
+  )
+  (via 
+    "Via[0-1]_762:381_um-kicad_default" "Via[0-1]_762:381_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_762:381_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_762:381_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 304.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    /GND "unconnected-(U4-PadGPIO16)" /RX3 /3.3V "unconnected-(U4-PadGPIO5)" "unconnected-(U4-PadGPIO13)" "unconnected-(U4-PadGPIO14)" "unconnected-(U4-PadGPIO4)"
+    "unconnected-(U4-PadADC)" "/RST_WIFI" /TX3 "unconnected-(U4-PadGPIO2)" "unconnected-(U4-PadGPIO12)" "unconnected-(U8-NC-Pad8)" "unconnected-(U8-NC-Pad14)" "unconnected-(U8-NC-Pad2)"
+    "unconnected-(U8-NC-Pad12)" "unconnected-(U8-32KHZ-Pad3)" "unconnected-(U8-NC-Pad13)" "Net-(BT1-+)" "unconnected-(U8-NC-Pad19)" "unconnected-(U8-SCL-Pad18)" "unconnected-(U8-NC-Pad11)" "unconnected-(U8-NC-Pad7)"
+    "unconnected-(U8-*INT{slash}SQW-Pad5)" "/SCL_1" "unconnected-(U8-*RST-Pad6)" "unconnected-(U8-NC-Pad10)" "unconnected-(U8-NC-Pad9)" "unconnected-(U8-NC-Pad1)" "/SDA_1" /12V
+    "/CS_flash" "Net-(D3-A)" /5V "Net-(D4-A)" "Net-(D5-K)" /KEY1 /KEY6 /KEY2
+    /KEY3 /KEY4 /KEY5 /KEY7 /KEY8 /NRST "Net-(D6-K)" /A+
+    "/B-" "/RST_flash" "Net-(D1-K)" "Net-(D2-K)" "Net-(D8-A)" /SCK1 /MOSI1 /MISO1
+    /RX1 "/TX_EN" /TX1 /RX2 /NSS1 /TX2 "/RST_LoRa" "unconnected-(U6-VBAT-Pad1)"
+    /Button1 /DIO0 "/GPIO_2" "/GPIO_1" /Button2 /MISO2 /NSS2 /MOSI2
+    "/OSC_OUT" /OUT4 /SCK2 "/OSC_IN" "unconnected-(U6-PA15-Pad38)" /SQW "Net-(J3-Pin_1)" "Net-(J3-Pin_2)"
+    "unconnected-(U3-PadDIO1)" "unconnected-(U3-PadDIO3)" "unconnected-(U3-PadDIO2)" "unconnected-(U3-PadDI105)" "unconnected-(U3-PadDI104)" /OUT5 /OUT3 /OUT7
+    /OUT2 /OUT1 /OUT6 /SWCLK /SWDIO "unconnected-(U12-~INT-Pad13)" "/MDB_uart/MR" "Net-(D9-K)"
+    "/MDB_uart/MT" "unconnected-(J6-Pad3)" "/TX_MDB" "/TX_485" "/RX_485" "/RX_MDB" "Net-(R28-Pad2)" "Net-(R31-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 304.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

@@ -1,4 +1,4 @@
-(pcb "D:\SmartMeter\Smartmeter\smart meter.dsn"
+(pcb "D:\Other\SmartMeter\Smartmeter\smart meter.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,9 +21,11 @@
       )
     )
     (boundary
-      (path pcb 0  241395 -246089  148365 -246089  148365 -55500  241395 -55500
-            241395 -246089)
+      (path pcb 0  241395 -252388  148365 -252388  148365 -50521.6  241395 -50521.6
+            241395 -252388)
     )
+    (plane /GND (polygon F.Cu 0  148336 -50495.2  241351 -50495.2  241402 -50546  241402 -252374
+            148387 -252374  148336 -252324  148336 -50495.2))
     (keepout "" (polygon signal 0  169160 -114612  168909 -114681  168671 -114787  168452 -114929
             168257 -115102  168091 -115304  167958 -115528  167861 -115769
             167801 -116023  167781 -116283  167801 -116543  167861 -116797
@@ -68,103 +70,107 @@
             237642 -92895.1  237563 -92646.6  237447 -92413  237297 -92199.8
             237117 -92012  236909 -91854  236680 -91729.5  236435 -91641.4
             236179 -91591.7  235919 -91581.7  235660 -91611.6))
-    (via "Via[0-1]_800:400_um")
+    (via "Via[0-1]_800:400_um" "Via[0-1]_381:203.2_um")
     (rule
-      (width 3000)
-      (clearance 1000)
-      (clearance 250 (type smd_smd))
+      (width 2032)
+      (clearance 508)
+      (clearance 127 (type smd_smd))
     )
   )
   (placement
     (component Varistor:RV_Disc_D15.5mm_W7.5mm_P7.5mm
       (place RV1 182245.000000 -111379.000000 front 90.000000 (PN 10D561))
     )
-    (component Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4
-      (place C8 210049.791000 -161376.600000 front 180.000000 (PN 0.01µF))
-      (place C6 209308.091000 -196022.200000 front 180.000000 (PN 0.01µF))
-      (place C7 231717.491000 -186923.000000 front 180.000000 (PN 0.01µF))
-      (place C5 188200.691000 -127162.800000 front 180.000000 (PN 0.01µF))
-      (place C9 209984.691000 -127162.800000 front 180.000000 (PN 0.01µF))
-      (place C4 188512.891000 -161376.600000 front 180.000000 (PN 0.01µF))
-      (place C3 188797.591000 -196022.200000 front 180.000000 (PN 0.01µF))
+    (component Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm
+      (place C8 210049.800000 -161376.600000 front 180.000000 (PN 0.01µF))
+      (place C6 209308.100000 -196022.200000 front 180.000000 (PN 0.01µF))
+      (place C7 231717.500000 -186923.000000 front 180.000000 (PN 0.01µF))
+      (place C5 188200.700000 -127162.800000 front 180.000000 (PN 0.01µF))
+      (place C9 209984.700000 -127162.800000 front 180.000000 (PN 0.01µF))
+      (place C4 188512.900000 -161376.600000 front 180.000000 (PN 0.01µF))
+      (place C3 188797.600000 -196022.200000 front 180.000000 (PN 0.01µF))
     )
     (component "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
-      (place PS1 185812.500000 -69197.500000 front 0.000000 (PN "HLK-5M12"))
+      (place PS1 182322.700000 -68970.300000 front 0.000000 (PN "HLK-5M12"))
+    )
+    (component MountingHole:MountingHole_3mm
+      (place H4 236829.600000 -248564.400000 front 0.000000 (PN MountingHole))
+      (place H1 152247.600000 -55321.200000 front 0.000000 (PN MountingHole))
+      (place H2 236829.600000 -55321.200000 front 0.000000 (PN MountingHole))
+      (place H3 152247.600000 -248564.400000 front 0.000000 (PN MountingHole))
     )
     (component "Package_DIP:DIP-6_W7.62mm"
-      (place U7 204443.991000 -175727.600000 front 90.000000 (PN MOC3063M))
-      (place U6 226391.091000 -200253.000000 front 90.000000 (PN MOC3063M))
-      (place U8 204425.891000 -142123.400000 front 90.000000 (PN MOC3063M))
-      (place U4 182718.091000 -142123.400000 front 90.000000 (PN MOC3063M))
-      (place U5 203948.691000 -209911.000000 front 90.000000 (PN MOC3063M))
-      (place U2 183314.991000 -209911.000000 front 90.000000 (PN MOC3063M))
-      (place U3 183030.291000 -175727.600000 front 90.000000 (PN MOC3063M))
+      (place U7 204444.000000 -175727.600000 front 90.000000 (PN MOC3063M))
+      (place U6 226391.100000 -200253.000000 front 90.000000 (PN MOC3063M))
+      (place U8 204425.900000 -142123.400000 front 90.000000 (PN MOC3063M))
+      (place U4 182718.100000 -142123.400000 front 90.000000 (PN MOC3063M))
+      (place U5 203948.700000 -209911.000000 front 90.000000 (PN MOC3063M))
+      (place U2 183315.000000 -209911.000000 front 90.000000 (PN MOC3063M))
+      (place U3 183030.300000 -175727.600000 front 90.000000 (PN MOC3063M))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-      (place R4 175685.891000 -188722.000000 front 90.000000 (PN 330))
-      (place R16 196900.191000 -188722.000000 front 90.000000 (PN 330))
+      (place R4 175685.900000 -188722.000000 front 90.000000 (PN 330))
+      (place R16 196900.200000 -188722.000000 front 90.000000 (PN 330))
+      (place R21 209804.000000 -157226.000000 front 90.000000 (PN 100))
       (place R10 196926.200000 -222758.000000 front 90.000000 (PN 330))
-      (place R5 181705.691000 -188722.000000 front 90.000000 (PN 330))
-      (place R19 196323.291000 -154290.000000 front 90.000000 (PN 330))
-      (place R1 175796.591000 -222504.000000 front 90.000000 (PN 330))
-      (place R7 175758.491000 -154290.000000 front 90.000000 (PN 330))
-      (place R8 182057.691000 -154290.000000 front 90.000000 (PN 330))
-      (place R20 202749.491000 -154290.000000 front 90.000000 (PN 330))
+      (place R6 187960.000000 -191262.000000 front 90.000000 (PN 100))
+      (place R3 188369.600000 -225044.000000 front 90.000000 (PN 100))
+      (place R5 181705.700000 -188722.000000 front 90.000000 (PN 330))
+      (place R19 196323.300000 -154290.000000 front 90.000000 (PN 330))
+      (place R15 231140.000000 -215646.000000 front 90.000000 (PN 100))
+      (place R1 175796.600000 -222504.000000 front 90.000000 (PN 330))
+      (place R7 175758.500000 -154290.000000 front 90.000000 (PN 330))
+      (place R12 209804.000000 -225298.000000 front 90.000000 (PN 100))
+      (place R9 188356.900000 -157226.000000 front 90.000000 (PN 100))
+      (place R8 182057.700000 -154290.000000 front 90.000000 (PN 330))
+      (place R20 202749.500000 -154290.000000 front 90.000000 (PN 330))
       (place R11 203200.000000 -222758.000000 front 90.000000 (PN 330))
       (place R13 217932.000000 -213360.000000 front 90.000000 (PN 330))
-      (place R2 181968.791000 -222504.000000 front 90.000000 (PN 330))
-      (place R14 224536.000000 -213360.000000 front 90.000000 (PN 330))
-      (place R17 203453.391000 -188722.000000 front 90.000000 (PN 330))
-    )
-    (component Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal
-      (place R21 209804.000000 -157226.000000 front 90.000000 (PN 100))
-      (place R6 187960.000000 -191262.000000 front 90.000000 (PN 100))
-      (place R3 188369.591000 -225044.000000 front 90.000000 (PN 100))
-      (place R15 231140.000000 -215646.000000 front 90.000000 (PN 100))
-      (place R12 209804.000000 -225298.000000 front 90.000000 (PN 100))
-      (place R9 188356.891000 -157226.000000 front 90.000000 (PN 100))
+      (place R2 181968.800000 -222504.000000 front 90.000000 (PN 330))
       (place R18 210312.000000 -191262.000000 front 90.000000 (PN 100))
+      (place R14 224536.000000 -213360.000000 front 90.000000 (PN 330))
+      (place R17 203453.400000 -188722.000000 front 90.000000 (PN 330))
     )
     (component Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3
       (place C1 194310.000000 -98799.000000 front -90.000000 (PN 0.1uF/275V))
     )
     (component smart_meter:RPC2
-      (place J4 167943.557000 -233621.000000 front -90.000000 (PN PV))
-      (place J5 169546.150000 -69619.000000 front -90.000000 (PN AC_Input))
+      (place J4 168703.000000 -233621.000000 front -90.000000 (PN PV))
+      (place J5 169942.100000 -72204.000000 front -90.000000 (PN AC_Input))
     )
     (component "Package_TO_SOT_THT:TO-220-3_Vertical"
-      (place Q2 176754.891000 -174462.600000 front 90.000000 (PN "BTA41-600"))
-      (place Q5 220091.891000 -198988.000000 front 90.000000 (PN "BTA41-600"))
-      (place Q1 176669.591000 -208646.000000 front 90.000000 (PN "BTA41-600"))
-      (place Q4 197700.291000 -208646.000000 front 90.000000 (PN "BTA41-600"))
-      (place Q3 176682.291000 -140858.400000 front 90.000000 (PN "BTA41-600"))
-      (place Q6 197484.391000 -174462.600000 front 90.000000 (PN "BTA41-600"))
-      (place Q7 197745.691000 -140858.400000 front 90.000000 (PN "BTA41-600"))
+      (place Q2 176754.900000 -174462.600000 front 90.000000 (PN "BTA41-600"))
+      (place Q5 220091.900000 -198988.000000 front 90.000000 (PN "BTA41-600"))
+      (place Q1 176669.600000 -208646.000000 front 90.000000 (PN "BTA41-600"))
+      (place Q4 197700.300000 -208646.000000 front 90.000000 (PN "BTA41-600"))
+      (place Q3 176682.300000 -140858.400000 front 90.000000 (PN "BTA41-600"))
+      (place Q6 197484.400000 -174462.600000 front 90.000000 (PN "BTA41-600"))
+      (place Q7 197745.700000 -140858.400000 front 90.000000 (PN "BTA41-600"))
     )
     (component smart_meter:AC_filter
       (place U9 240119.000000 -89408.000000 front -90.000000 (PN ~))
     )
     (component "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
-      (place F1 174000.000000 -60095.000000 front -90.000000 (PN Fuse))
+      (place F1 172110.400000 -59870.000000 front -90.000000 (PN Fuse))
     )
     (component smart_meter:RC4
       (place J1 221230.800000 -223539.800000 front 0.000000 (PN Energy_Meter_Conn))
     )
     (component Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm
-      (place C2 231140.000000 -81788.000000 front 90.000000 (PN 220uF))
+      (place C2 232105.200000 -85344.000000 front 90.000000 (PN 220uF))
     )
     (component smart_meter:RPC5
-      (place J8 168529.000000 -193292.000000 front -90.000000 (PN Loads2))
-      (place J7 168698.000000 -144106.000000 front -90.000000 (PN Loads1))
+      (place J8 168698.000000 -193292.000000 front -90.000000 (PN Loads2))
+      (place J7 168698.000000 -143750.400000 front -90.000000 (PN Loads1))
     )
     (component smart_meter:RC2
-      (place J6 233172.000000 -75692.000000 front 180.000000 (PN DC_out))
+      (place J6 226668.400000 -71274.000000 front 180.000000 (PN DC_out))
     )
     (component "Inductor_THT:L_CommonMode_Wuerth_WE-CMB-M"
       (place L1 200120.000000 -100704.000000 front 0.000000 (PN L_Coupled_1324))
     )
     (component smart_meter:Energy_meter
-      (place U1 216673.591000 -148940.800000 front 90.000000 (PN ~))
+      (place U1 216673.600000 -148940.800000 front 90.000000 (PN ~))
     )
     (component smart_meter:RC8
       (place J2 192024.000000 -223966.200000 front 0.000000 (PN Control_Terminal))
@@ -187,19 +193,21 @@
       (pin Round[A]Pad_1800.000000_um 1 0 0)
       (pin Round[A]Pad_1800.000000_um 2 7500 -4000)
     )
-    (image Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4
-      (outline (path signal 120  11620 2620  11620 -2620))
-      (outline (path signal 120  -1620 -2620  11620 -2620))
-      (outline (path signal 120  -1620 2620  11620 2620))
-      (outline (path signal 120  -1620 2620  -1620 -2620))
-      (outline (path signal 50  11750 -2750  11750 2750))
-      (outline (path signal 50  11750 2750  -1750 2750))
-      (outline (path signal 50  -1750 -2750  11750 -2750))
-      (outline (path signal 50  -1750 2750  -1750 -2750))
-      (outline (path signal 100  11500 -2500  11500 2500))
-      (outline (path signal 100  11500 2500  -1500 2500))
-      (outline (path signal 100  -1500 -2500  11500 -2500))
-      (outline (path signal 100  -1500 2500  -1500 -2500))
+    (image Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm
+      (outline (path signal 120  8870 -511  8870 -2620))
+      (outline (path signal 120  8870 2620  8870 511))
+      (outline (path signal 120  1130 -2620  8870 -2620))
+      (outline (path signal 120  1130 -511  1130 -2620))
+      (outline (path signal 120  1130 2620  8870 2620))
+      (outline (path signal 120  1130 2620  1130 511))
+      (outline (path signal 50  11250 -2750  11250 2750))
+      (outline (path signal 50  11250 2750  -1250 2750))
+      (outline (path signal 50  -1250 -2750  11250 -2750))
+      (outline (path signal 50  -1250 2750  -1250 -2750))
+      (outline (path signal 100  8750 -2500  8750 2500))
+      (outline (path signal 100  8750 2500  1250 2500))
+      (outline (path signal 100  1250 -2500  8750 -2500))
+      (outline (path signal 100  1250 2500  1250 -2500))
       (pin Round[A]Pad_2000.000000_um 1 0 0)
       (pin Round[A]Pad_2000.000000_um 2 10000 0)
     )
@@ -218,6 +226,39 @@
       (pin Oval[A]Pad_1700.000000x2000.000000_um 2 0 -6000)
       (pin Oval[A]Pad_1700.000000x2000.000000_um 3 33600 6000)
       (pin Oval[A]Pad_1700.000000x2000.000000_um 4 33600 -12000)
+    )
+    (image MountingHole:MountingHole_3mm
+      (outline (path signal 150  3000 0  2980.45 -341.974  2922.04 -679.49  2825.53 -1008.15
+            2692.2 -1323.66  2523.76 -1621.92  2322.43 -1899.04  2090.81 -2151.39
+            1831.94 -2375.71  1549.19 -2569.05  1246.24 -2728.9  927.051 -2853.17
+            595.771 -2940.25  256.725 -2988.99  -85.668 -2998.78  -426.945 -2969.46
+            -762.655 -2901.44  -1088.42 -2795.59  -1400 -2653.3  -1693.33 -2476.42
+            -1964.58 -2267.25  -2210.22 -2028.53  -2427.05 -1763.36  -2612.24 -1475.2
+            -2763.37 -1167.81  -2878.48 -845.198  -2956.06 -511.567  -2995.11 -171.266
+            -2995.11 171.266  -2956.06 511.567  -2878.48 845.198  -2763.37 1167.81
+            -2612.24 1475.2  -2427.05 1763.36  -2210.22 2028.53  -1964.58 2267.25
+            -1693.33 2476.42  -1400 2653.3  -1088.42 2795.59  -762.655 2901.44
+            -426.945 2969.46  -85.668 2998.78  256.725 2988.99  595.771 2940.25
+            927.051 2853.17  1246.24 2728.9  1549.19 2569.05  1831.94 2375.71
+            2090.81 2151.39  2322.43 1899.04  2523.76 1621.92  2692.2 1323.66
+            2825.53 1008.15  2922.04 679.49  2980.45 341.974  3000 0))
+      (outline (path signal 50  3250 0  3230.95 -351.387  3174.02 -698.654  3079.87 -1037.73
+            2949.62 -1364.64  2784.79 -1675.55  2587.3 -1966.82  2359.49 -2235.02
+            2104.01 -2477.03  1823.86 -2689.99  1522.33 -2871.41  1202.95 -3019.17
+            869.467 -3131.54  525.791 -3207.19  175.951 -3245.23  -175.951 -3245.23
+            -525.791 -3207.19  -869.467 -3131.54  -1202.95 -3019.17  -1522.33 -2871.41
+            -1823.86 -2689.99  -2104.01 -2477.03  -2359.49 -2235.02  -2587.3 -1966.82
+            -2784.79 -1675.55  -2949.62 -1364.64  -3079.87 -1037.73  -3174.02 -698.654
+            -3230.95 -351.387  -3250 0  -3230.95 351.387  -3174.02 698.654
+            -3079.87 1037.73  -2949.62 1364.64  -2784.79 1675.55  -2587.3 1966.82
+            -2359.49 2235.02  -2104.01 2477.03  -1823.86 2689.99  -1522.33 2871.41
+            -1202.95 3019.17  -869.467 3131.54  -525.791 3207.19  -175.951 3245.23
+            175.951 3245.23  525.791 3207.19  869.467 3131.54  1202.95 3019.17
+            1522.33 2871.41  1823.86 2689.99  2104.01 2477.03  2359.49 2235.02
+            2587.3 1966.82  2784.79 1675.55  2949.62 1364.64  3079.87 1037.73
+            3174.02 698.654  3230.95 351.387  3250 0))
+      (keepout "" (circle F.Cu 3500))
+      (keepout "" (circle B.Cu 3500))
     )
     (image "Package_DIP:DIP-6_W7.62mm"
       (outline (path signal 120  6460 1330  4810 1330))
@@ -268,26 +309,6 @@
       (outline (path signal 100  660 -1250  6960 -1250))
       (pin Round[A]Pad_1600.000000_um 1 0 0)
       (pin Oval[A]Pad_1600.000000x1600.000000_um 2 7620 0)
-    )
-    (image Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal
-      (outline (path signal 120  10970 1720  1730 1720))
-      (outline (path signal 120  1730 1720  1730 -1720))
-      (outline (path signal 120  11660 0  10970 0))
-      (outline (path signal 120  1040 0  1730 0))
-      (outline (path signal 120  10970 -1720  10970 1720))
-      (outline (path signal 120  1730 -1720  10970 -1720))
-      (outline (path signal 50  13750 1850  -1050 1850))
-      (outline (path signal 50  -1050 1850  -1050 -1850))
-      (outline (path signal 50  13750 -1850  13750 1850))
-      (outline (path signal 50  -1050 -1850  13750 -1850))
-      (outline (path signal 100  10850 1600  1850 1600))
-      (outline (path signal 100  1850 1600  1850 -1600))
-      (outline (path signal 100  12700 0  10850 0))
-      (outline (path signal 100  0 0  1850 0))
-      (outline (path signal 100  10850 -1600  10850 1600))
-      (outline (path signal 100  1850 -1600  10850 -1600))
-      (pin Round[A]Pad_1600.000000_um 1 0 0)
-      (pin Oval[A]Pad_1600.000000x1600.000000_um 2 12700 0)
     )
     (image Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3
       (outline (path signal 120  -1620 -2620  16620 -2620))
@@ -791,6 +812,11 @@
       (shape (circle B.Cu 800))
       (attach off)
     )
+    (padstack "Via[0-1]_381:203.2_um"
+      (shape (circle F.Cu 381))
+      (shape (circle B.Cu 381))
+      (attach off)
+    )
   )
   (network
     (net /Lpv
@@ -1013,14 +1039,14 @@
     (net "unconnected-(U9-E-Pad5)"
       (pins U9-5)
     )
-    (class kicad_default /12V /GND /L "/L(M.N)" /L1 /L2 /L3 /L4 /L5 /Lpv /Meter_out
-      /N /O1 /O2 /O3 /O4 /O5 /O6 /O7 /RX /TX /VCC "Net-(C1-Pad1)" "Net-(C3-Pad1)"
-      "Net-(C4-Pad1)" "Net-(C5-Pad1)" "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(C8-Pad1)"
-      "Net-(C9-Pad1)" "Net-(PS1-AC{slash}L)" "Net-(PS1-AC{slash}N)" "Net-(Q1-G)"
-      "Net-(Q2-G)" "Net-(Q3-G)" "Net-(Q4-G)" "Net-(Q5-G)" "Net-(Q6-G)" "Net-(Q7-G)"
-      "Net-(R1-Pad2)" "Net-(R10-Pad2)" "Net-(R11-Pad1)" "Net-(R13-Pad2)" "Net-(R14-Pad1)"
-      "Net-(R16-Pad2)" "Net-(R17-Pad1)" "Net-(R19-Pad2)" "Net-(R2-Pad1)" "Net-(R20-Pad1)"
-      "Net-(R4-Pad2)" "Net-(R5-Pad1)" "Net-(R7-Pad2)" "Net-(R8-Pad1)" "unconnected-(U1-NC-PadNC1)"
+    (class kicad_default /12V /L "/L(M.N)" /L1 /L2 /L3 /L4 /L5 /Lpv /Meter_out
+      /N "Net-(C1-Pad1)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C5-Pad1)" "Net-(C6-Pad1)"
+      "Net-(C7-Pad1)" "Net-(C8-Pad1)" "Net-(C9-Pad1)" "Net-(PS1-AC{slash}L)"
+      "Net-(PS1-AC{slash}N)" "Net-(Q1-G)" "Net-(Q2-G)" "Net-(Q3-G)" "Net-(Q4-G)"
+      "Net-(Q5-G)" "Net-(Q6-G)" "Net-(Q7-G)" "Net-(R1-Pad2)" "Net-(R10-Pad2)"
+      "Net-(R11-Pad1)" "Net-(R13-Pad2)" "Net-(R14-Pad1)" "Net-(R16-Pad2)"
+      "Net-(R17-Pad1)" "Net-(R19-Pad2)" "Net-(R2-Pad1)" "Net-(R20-Pad1)" "Net-(R4-Pad2)"
+      "Net-(R5-Pad1)" "Net-(R7-Pad2)" "Net-(R8-Pad1)" "unconnected-(U1-NC-PadNC1)"
       "unconnected-(U1-NC-PadNC2)" "unconnected-(U1-PadL)" "unconnected-(U1-PadPF)"
       "unconnected-(U2-NC-Pad3)" "unconnected-(U2-NC-Pad5)" "unconnected-(U3-NC-Pad3)"
       "unconnected-(U3-NC-Pad5)" "unconnected-(U4-NC-Pad3)" "unconnected-(U4-NC-Pad5)"
@@ -1032,8 +1058,17 @@
         (use_via "Via[0-1]_800:400_um")
       )
       (rule
-        (width 3000)
-        (clearance 1000)
+        (width 2032)
+        (clearance 508)
+      )
+    )
+    (class control,Default /GND /O1 /O2 /O3 /O4 /O5 /O6 /O7 /RX /TX /VCC
+      (circuit
+        (use_via "Via[0-1]_381:203.2_um")
+      )
+      (rule
+        (width 254)
+        (clearance 254)
       )
     )
   )

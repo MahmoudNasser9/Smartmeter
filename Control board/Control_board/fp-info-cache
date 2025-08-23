@@ -1,4 +1,4 @@
-25261390305911077
+25268428192668565
 ACC_Library
 DIP762W50P254L1018H450Q8
 <b>Dual In Line Package</b>
@@ -6,6 +6,13 @@ DIP762W50P254L1018H450Q8
 0
 8
 8
+ACC_Library
+Inductor
+
+
+0
+2
+2
 ACC_Library
 Logo_silkscreen
 
@@ -76,6 +83,13 @@ SOIC127P1032X265-16N
 0
 16
 16
+ACC_Library
+SW_SLW-1276864-4A-D
+
+
+0
+3
+3
 ACC_Library
 SW_TS-1088-AR02016
 
@@ -101444,6 +101458,13 @@ RPC2
 2
 2
 smart_meter
+RPC5
+
+
+0
+5
+5
+smart_meter
 RPC10
 
 
@@ -101457,6 +101478,13 @@ DS3232SN-T&R
 0
 20
 20
+smart_meter
+SOIC127P1032X265-16N
+
+
+0
+16
+16
 smart_meter
 Screw Terminal 2pin
 

@@ -10427,7 +10427,7 @@
 		)
 		(property "Value" "Debug"
 			(at 0 10.39 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "8e5f8d40-7e04-4d29-8b70-aa7cd95e1ef7")
 			(effects
 				(font

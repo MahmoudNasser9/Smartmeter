@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "6b6e7f04-e4bf-4c77-9852-1b9053859fbf")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -7537,8 +7537,8 @@
 		(uuid 59865dca-04a4-4cb0-8631-97cced3f6699)
 	)
 	(rectangle
-		(start 191.77 145.796)
-		(end 241.3 174.752)
+		(start 202.946 146.304)
+		(end 252.476 175.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8305,7 +8305,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.502 151.892) (xy 204.724 151.892)
+			(xy 217.678 152.4) (xy 215.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8895,7 +8895,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.724 151.892) (xy 204.724 152.908)
+			(xy 215.9 152.4) (xy 215.9 153.416)
 		)
 		(stroke
 			(width 0)
@@ -9035,7 +9035,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 160.528) (xy 213.36 155.702)
+			(xy 224.536 161.036) (xy 224.536 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9255,7 +9255,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.548 160.528) (xy 197.104 160.528)
+			(xy 204.724 161.036) (xy 208.28 161.036)
 		)
 		(stroke
 			(width 0)
@@ -9325,7 +9325,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.186 158.242) (xy 218.186 172.974)
+			(xy 229.362 158.75) (xy 229.362 173.482)
 		)
 		(stroke
 			(width 0)
@@ -9475,7 +9475,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.344 160.528) (xy 213.36 160.528)
+			(xy 223.52 161.036) (xy 224.536 161.036)
 		)
 		(stroke
 			(width 0)
@@ -9495,7 +9495,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.708 169.672) (xy 204.724 169.672)
+			(xy 214.884 170.18) (xy 215.9 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9665,7 +9665,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.724 168.148) (xy 204.724 169.672)
+			(xy 215.9 168.656) (xy 215.9 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9725,7 +9725,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 158.242) (xy 218.186 158.242)
+			(xy 233.426 158.75) (xy 229.362 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10695,7 +10695,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.186 172.974) (xy 193.548 172.974)
+			(xy 229.362 173.482) (xy 204.724 173.482)
 		)
 		(stroke
 			(width 0)
@@ -10755,7 +10755,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.548 172.974) (xy 193.548 160.528)
+			(xy 204.724 173.482) (xy 204.724 161.036)
 		)
 		(stroke
 			(width 0)
@@ -11055,7 +11055,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 155.702) (xy 222.25 155.702)
+			(xy 224.536 156.21) (xy 233.426 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11235,7 +11235,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.502 150.368) (xy 206.502 151.892)
+			(xy 217.678 150.876) (xy 217.678 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11914,7 +11914,7 @@
 		(uuid "43069ffe-c890-4aeb-9a52-ee95f3ed8740")
 	)
 	(label "GND"
-		(at 203.708 169.672 180)
+		(at 214.884 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12054,7 +12054,7 @@
 		(uuid "5b573776-b4e1-4527-be3c-dde4317c9373")
 	)
 	(label "12V"
-		(at 206.502 150.368 90)
+		(at 217.678 150.876 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13132,7 +13132,7 @@
 	)
 	(symbol
 		(lib_id "Diode_Bridge:DF02S")
-		(at 204.724 160.528 90)
+		(at 215.9 161.036 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13141,7 +13141,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f9cd79d-a24a-4aed-b414-bd9a28fede66")
 		(property "Reference" "D7"
-			(at 198.3038 151.638 0)
+			(at 209.4798 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13149,7 +13149,7 @@
 			)
 		)
 		(property "Value" "DF02S"
-			(at 200.8438 151.638 0)
+			(at 212.0198 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13157,7 +13157,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Diode_Bridge_OnSemi_SDIP-4L"
-			(at 201.549 156.718 0)
+			(at 212.725 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13167,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/df10s-d.pdf"
-			(at 204.724 160.528 0)
+			(at 215.9 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13176,7 +13176,7 @@
 			)
 		)
 		(property "Description" "Bridge Rectifier, 140V Vrms, 1.5A If, SMDIP-4"
-			(at 204.724 160.528 0)
+			(at 215.9 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14400,7 +14400,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 227.33 155.702 0)
+		(at 238.506 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14409,7 +14409,7 @@
 		(fields_autoplaced yes)
 		(uuid "55fa9833-6760-4fa4-bda5-c3ef6be8aaa5")
 		(property "Reference" "J3"
-			(at 229.362 155.7019 0)
+			(at 240.538 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14418,7 +14418,7 @@
 			)
 		)
 		(property "Value" "Power_IN"
-			(at 229.362 158.2419 0)
+			(at 240.538 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,7 +14427,7 @@
 			)
 		)
 		(property "Footprint" "smart_meter:RC2"
-			(at 227.33 155.702 0)
+			(at 238.506 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14436,7 +14436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 155.702 0)
+			(at 238.506 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,7 +14445,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 155.702 0)
+			(at 238.506 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

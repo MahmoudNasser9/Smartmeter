@@ -18683,7 +18683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 168.275 207.518 0)
 			(effects
 				(font
@@ -21807,7 +21807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 205.105 207.645 0)
 			(effects
 				(font
@@ -24864,7 +24864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC18-U_Vertical"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 127.762 174.752 0)
 			(effects
 				(font
@@ -25083,7 +25083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32 Mbit, 3.0V (2.3V to 3.6V), -40C to 85C, SOIC-W 208mil (Tape & Reel), Single SPI DataFlash"
+		(property "Description" "\n                        \n                            32 Mbit, 3.0V (2.3V to 3.6V), -40C to 85C, SOIC-W 208mil (Tape & Reel), Single SPI DataFlash\n                        \n"
 			(at 244.094 126.365 0)
 			(effects
 				(font
@@ -25332,7 +25332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 242.57 207.645 0)
 			(effects
 				(font

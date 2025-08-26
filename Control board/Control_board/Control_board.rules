@@ -27,10 +27,10 @@
   )
   (rule
     (width 304.8)
-    (clearance 152.4)
+    (clearance 76.2)
     (clearance 152.4 (type smd_to_turn_gap))
-    (clearance 38.2 (type smd))
-    (clearance 152.4 (type "kicad_default"))
+    (clearance 19.2 (type smd))
+    (clearance 76.2 (type "kicad_default"))
   )
   (padstack "Via[0-1]_762:381_um"
     (shape
@@ -64,19 +64,22 @@
     )
   )
   (class "kicad_default"
-    /GND "unconnected-(U4-PadGPIO16)" /RX3 /3.3V "unconnected-(U4-PadGPIO5)" "unconnected-(U4-PadGPIO13)" "unconnected-(U4-PadGPIO14)" "unconnected-(U4-PadGPIO4)"
-    "unconnected-(U4-PadADC)" "/RST_WIFI" /TX3 "unconnected-(U4-PadGPIO2)" "unconnected-(U4-PadGPIO12)" "unconnected-(U8-NC-Pad8)" "unconnected-(U8-NC-Pad14)" "unconnected-(U8-NC-Pad2)"
-    "unconnected-(U8-NC-Pad12)" "unconnected-(U8-32KHZ-Pad3)" "unconnected-(U8-NC-Pad13)" "Net-(BT1-+)" "unconnected-(U8-NC-Pad19)" "unconnected-(U8-SCL-Pad18)" "unconnected-(U8-NC-Pad11)" "unconnected-(U8-NC-Pad7)"
-    "unconnected-(U8-*INT{slash}SQW-Pad5)" "/SCL_1" "unconnected-(U8-*RST-Pad6)" "unconnected-(U8-NC-Pad10)" "unconnected-(U8-NC-Pad9)" "unconnected-(U8-NC-Pad1)" "/SDA_1" /12V
-    "/CS_flash" "Net-(D3-A)" /5V "Net-(D4-A)" "Net-(D5-K)" /KEY1 /KEY6 /KEY2
-    /KEY3 /KEY4 /KEY5 /KEY7 /KEY8 /NRST "Net-(D6-K)" /A+
-    "/B-" "/RST_flash" "Net-(D1-K)" "Net-(D2-K)" "Net-(D8-A)" /SCK1 /MOSI1 /MISO1
-    /RX1 "/TX_EN" /TX1 /RX2 /NSS1 /TX2 "/RST_LoRa" "unconnected-(U6-VBAT-Pad1)"
-    /Button1 /DIO0 "/GPIO_2" "/GPIO_1" /Button2 /MISO2 /NSS2 /MOSI2
-    "/OSC_OUT" /OUT4 /SCK2 "/OSC_IN" "unconnected-(U6-PA15-Pad38)" /SQW "Net-(J3-Pin_1)" "Net-(J3-Pin_2)"
-    "unconnected-(U3-PadDIO1)" "unconnected-(U3-PadDIO3)" "unconnected-(U3-PadDIO2)" "unconnected-(U3-PadDI105)" "unconnected-(U3-PadDI104)" /OUT5 /OUT3 /OUT7
-    /OUT2 /OUT1 /OUT6 /SWCLK /SWDIO "unconnected-(U12-~INT-Pad13)" "/MDB_uart/MR" "Net-(D9-K)"
-    "/MDB_uart/MT" "unconnected-(J6-Pad3)" "/TX_MDB" "/TX_485" "/RX_485" "/RX_MDB" "Net-(R28-Pad2)" "Net-(R31-Pad2)"
+    /GND "Net-(D10-K)" /RX3 /3.3V "Net-(D11-A)" /GPIO16 "Net-(D12-A)" "Net-(D13-A)"
+    "/TX_Meter" "/RST_WIFI" /TX3 "/RX_Meter" "Net-(J8-D-)" "unconnected-(U8-NC-Pad8)" "unconnected-(U8-NC-Pad14)" "unconnected-(U8-NC-Pad2)"
+    "unconnected-(U8-NC-Pad12)" "Net-(J8-D+)" "unconnected-(U8-NC-Pad13)" "Net-(BT1-+)" "unconnected-(U8-NC-Pad19)" "unconnected-(U8-SCL-Pad18)" "unconnected-(U8-NC-Pad11)" "unconnected-(U8-NC-Pad7)"
+    "/SCL_1" "unconnected-(U8-*RST-Pad6)" "unconnected-(U8-NC-Pad10)" "unconnected-(U8-NC-Pad9)" "unconnected-(U8-NC-Pad1)" "/SDA_1" /12V "/CS_flash"
+    "Net-(D3-A)" /5V "Net-(D4-A)" "Net-(D5-K)" /KEY1 /KEY6 /KEY2 /KEY3
+    /KEY4 /KEY5 /KEY7 /KEY8 /NRST "Net-(D6-K)" /A+ "/B-"
+    "Net-(D1-K)" "Net-(D2-K)" "Net-(D8-A)" /SCK1 /MOSI1 /MISO1 /RX1 "/TX_EN"
+    /TX1 /RX2 /NSS1 /TX2 "/RST_LoRa" "unconnected-(U6-VBAT-Pad1)" /Button1 /DIO0
+    "/GPIO_2" "/GPIO_1" /Button2 /MISO2 /NSS2 /MOSI2 "/OSC_OUT" /OUT4
+    /SCK2 "/OSC_IN" "unconnected-(U6-PA15-Pad38)" /SQW "Net-(J3-Pin_1)" "Net-(J3-Pin_2)" "unconnected-(U3-PadDIO1)" "unconnected-(U3-PadDIO3)"
+    "unconnected-(U3-PadDIO2)" "unconnected-(U3-PadDI105)" "unconnected-(U3-PadDI104)" /OUT5 /OUT3 /OUT7 /OUT2 /OUT1
+    /OUT6 /SWCLK /SWDIO "unconnected-(U12-~INT-Pad13)" "/MDB_uart/MR" "Net-(D9-K)" "/MDB_uart/MT" "unconnected-(J6-Pad3)"
+    "/TX_MDB" "/USB_DP" /PA12 "/RX_MDB" "Net-(R28-Pad2)" "Net-(R31-Pad2)" /Button4 /PA11
+    "/USB_DM" /Button5 "Net-(U1-~{RESET})" /GPIO0 "Net-(U8-*INT{slash}SQW)" "Net-(R36-Pad1)" "Net-(R38-Pad1)" "Net-(U8-32KHZ)"
+    /GPIO2 /EN /GPIO15 /Button3 "/LED 1" "/LED 2" /Button6 /ADC
+    "unconnected-(U14-GPIO10-Pad12)" "unconnected-(U14-SCLK-Pad14)" "unconnected-(U14-MOSI-Pad13)" "unconnected-(U14-GPIO9-Pad11)" "unconnected-(U14-MISO-Pad10)" "unconnected-(U14-CS0-Pad9)" "/RX2_stm" "/TX2_stm"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
